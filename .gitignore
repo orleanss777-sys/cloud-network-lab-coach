@@ -1,0 +1,16 @@
+node_modules
+dist
+.output
+.nitro
+.tanstack
+.vite
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+artifacts
+screenshots
+.grok
+.node_modules.lock
+src/routeTree.gen.ts
