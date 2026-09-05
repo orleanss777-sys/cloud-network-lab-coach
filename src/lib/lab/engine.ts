@@ -1,6 +1,5 @@
 import type { Lab } from "./types";
 import {
-  azNetwork,
   findVm,
   flag,
   helpText,
@@ -15,6 +14,7 @@ import {
   vmByIp,
   type CommandResult,
 } from "./sim";
+import { azNetwork } from "./az";
 
 export function runCommand(
   raw: string,
